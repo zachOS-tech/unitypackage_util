@@ -46,7 +46,7 @@ jobs:
   #         files: unitypackage_util-macos-x86_64.zip
 
   #     - name: unitypackage_util-macos-x86_64
-  #       uses: actions/upload-artifact@v3
+  #       uses: actions/upload-artifact@v4
   #       with:
   #         name: unitypackage_util-macos-x86_64
   #         path: unitypackage_util-macos-x86_64/*
@@ -84,7 +84,7 @@ jobs:
             unitypackage_util-windows-x86_64/unitypackage_util-License.txt
 
       - name: unitypackage_util-windows-x86_64
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: unitypackage_util-windows-x86_64
           path: unitypackage_util-windows-x86_64/*
@@ -119,7 +119,7 @@ jobs:
   #         files: unitypackage_util-linux-x86_64.zip
 
   #     - name: unitypackage_util-linux-x86_64
-  #       uses: actions/upload-artifact@v3
+  #       uses: actions/upload-artifact@v4
   #       with:
   #         name: unitypackage_util-linux-x86_64
   #         path: unitypackage_util-linux-x86_64/*
